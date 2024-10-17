@@ -1,0 +1,68 @@
+/* Import et mise en place police Raleway sur le reste du site */
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-VariableFont_wght.woff');
+    src: url('../fonts/Raleway-VariableFont.ttf') format('truetype'); 
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('../fonts/Raleway-Bold.woff');
+    src: url('../fonts/Raleway-Bold.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'Raleway-BoldItalic';
+    src: url('../fonts/Raleway-BoldItalic.woff');
+    src: url('../fonts/Raleway-BoldItalic.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'Raleway-Italic';
+    src: url('../fonts/Raleway-Italic.woff');
+    src: url('../fonts/Raleway-Italic.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'Raleway-ItalicVariable';
+    src: url('../fonts/Raleway-Italic-VariableFont.woff');
+    src: url('../fonts/Raleway-Italic-VariableFont.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('../fonts/Raleway-Regular.woff');
+    src: url('../fonts/Raleway-Regular.ttf') format('truetype'); 
+}
+*
+{
+    font-family: "Raleway", sans-serif;
+}
+/* Import et mise en place police Lato sur les titres */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+h1, h2, h3
+{
+    font-family: 'Lato',sans-serif;
+}
+
+/* Taille du CV en largeur 1160px et centré et background de l'entête et pied de page */
+body
+{
+    width: 1160px;
+    margin:auto;
+}
+header, footer
+{
+    background-color: #17abb3;
+    align-content: center;
+    text-align: center;
+}
+/* mise en forme de la partie principale*/
+main
+{
+    display:inline-flex;
+    flex-wrap:nowrap;
+}
+/* On défini la taille de la partie profil */
+.profile
+{
+    width:348px;
+}
