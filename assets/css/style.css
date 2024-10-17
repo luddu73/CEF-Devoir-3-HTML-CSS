@@ -53,8 +53,56 @@ header, footer
 {
     background-color: #17abb3;
     align-content: center;
+}
+/* Mise en forme de l'header */
+header
+{
+    display: flex;
+    align-items: center;
+    color:white;
+    text-align:center;
+}
+.photo
+{
+    width:348px;
     text-align: center;
 }
+.photo img
+{
+    width:40%;
+    border-radius: 50%;
+    border: white 5px solid;
+}
+.header-contact
+{
+    margin:auto;
+}
+
+header h1
+{
+    margin-bottom:auto;
+    font-size: xxx-large;
+}
+.search-post
+{
+    margin:0.5em;
+    font-size: x-large;
+}
+address
+{
+    font-size: inherit;
+    display: flex;
+    flex-wrap:wrap;
+    text-align:left;
+    padding:0.5em;
+    margin:auto;
+}
+address p
+{
+    width:50%;
+    margin:auto;
+}
+
 /* mise en forme de la partie principale*/
 main
 {
