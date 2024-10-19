@@ -1,0 +1,8 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.tonsite.com/</loc> <!-- Bien qu'il n'y ai qu'une seule page, le sitemap aide à l'indexation. Mon site n'étant pas hébergé, j'ai laissé des valeurs fausses -->
+    <lastmod>2024-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
