@@ -61,6 +61,7 @@ header
     align-items: center;
     color:white;
     text-align:center;
+    height: 240px;
 }
 .photo
 {
@@ -90,17 +91,29 @@ header h1
 }
 address
 {
-    font-size: inherit;
     display: flex;
+    flex-direction:column;
     flex-wrap:wrap;
-    text-align:left;
-    padding:0.5em;
+    font-size:small;
+    height:60px;
     margin:auto;
 }
 address p
 {
-    width:50%;
-    margin:auto;
+    font-style:normal;
+    font-size:medium;
+    text-align:left;
+    margin:auto auto auto 25px;
+}
+a
+{
+    color:white;
+    text-decoration: none;
+}
+.head-icon
+{
+    width:20px;
+    fill:white !important;
 }
 
 /* mise en forme de la partie principale*/
