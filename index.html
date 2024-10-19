@@ -36,9 +36,11 @@
             <section>
                 <h2>Compétences</h2>
                 <hr>
+                <!-- Liste sous forme de div pour faire l'alignement avec flexbox -->
                 <div class="skills-list">
                     <div class="skills">HTML</div> 
                     <div class="skills-level">
+                        <!-- 4/5 étoiles -->
                         <img src="assets/img/star-solid.svg" class="skills-icon" alt="1 étoile">
                         <img src="assets/img/star-solid.svg" class="skills-icon" alt="1 étoile">
                         <img src="assets/img/star-solid.svg" class="skills-icon" alt="1 étoile">
@@ -47,6 +49,7 @@
                     </div>
                     <div class="skills">CSS</div> 
                     <div class="skills-level">
+                        <!-- 3/5 étoiles -->
                         <img src="assets/img/star-solid.svg" class="skills-icon" alt="1 étoile">
                         <img src="assets/img/star-solid.svg" class="skills-icon" alt="1 étoile">
                         <img src="assets/img/star-solid.svg" class="skills-icon" alt="1 étoile">
@@ -55,6 +58,7 @@
                     </div>
                     <div class="skills">Javascript</div> 
                     <div class="skills-level">
+                        <!-- 1/5 étoiles -->
                         <img src="assets/img/star-solid.svg" class="skills-icon" alt="1 étoile">
                         <img src="assets/img/star-regular.svg" class="skills-icon" alt="0 étoile">
                         <img src="assets/img/star-regular.svg" class="skills-icon" alt="0 étoile">
@@ -63,6 +67,7 @@
                     </div>
                     <div class="skills">PHP</div> 
                     <div class="skills-level">
+                        <!-- 2/5 étoiles -->
                         <img src="assets/img/star-solid.svg" class="skills-icon" alt="1 étoile">
                         <img src="assets/img/star-solid.svg" class="skills-icon" alt="1 étoile">
                         <img src="assets/img/star-regular.svg" class="skills-icon" alt="0 étoile">
@@ -74,7 +79,7 @@
             <section>
                 <h2>Langues</h2>
                 <hr>
-                
+                <!-- Liste sous forme de div pour faire l'alignement avec flexbox -->
                 <div class="skills-list">
                     <div class="language">Français</div> 
                     <div>
@@ -86,7 +91,7 @@
                     </div>
                     <div class="language">Espagnol</div> 
                     <div>
-                        Notiobs
+                        Notions
                     </div>
                 </div>
             </section>
@@ -115,38 +120,56 @@
             <section>
                 <h2>Profil</h2>
                 <hr>
-                <p>Après 10 ans au sein d'une exploitation en transports de voyageurs (8 ans tant que chargé de planning, puis 2 ans responsable de site), je suis en pleine reconvertion professionnelle.</p>
-                <p>Passionné de transport et d'informatiques, je développe depuis 7 ans un projet personnel : un jeu en ligne sur navigateur sur le domaine des transports. Devenir développeur web est devenu pour moi une évidence.</p>
+                <p class="profil-text">Après 10 ans au sein d'une exploitation en transports de voyageurs (8 ans tant que chargé de planning, puis 2 ans responsable de site), je suis en pleine reconvertion professionnelle.</p>
+                <p class="profil-text">Passionné de transport et d'informatiques, je développe depuis 7 ans un projet personnel : un jeu en ligne sur navigateur sur le domaine des transports. Devenir développeur web est devenu pour moi une évidence.</p>
             </section>
             <section>
                 <h2>Formations</h2>
                 <hr>
-                <ul>
-                    <li>Titre Professionnel Développeur Web et Web Mobile : 2024/2025<br>
-                    Centre Europpéen de Formation</li>
-                    <li>FIMO Voyageurs : 2016<br>
-                    AFRAL Fontaine (38)</li>
-                    <li>Attestation de capacité voyageurs : 2013<br>
-                    DREAL Rhône-Alpes</li>
-                    <li>Titre Professionnel Technicien Supérieur Transport de Personnes : 2012-2013<br>
-                    AFTRAL Villette d'Anthon (38)</li>
-                    <li>Baccalauréat Technologique STI GMA : 2012<br>
-                    Lycée Monge</li>
-                </ul>
+                <div class="list-items-cv">
+                    <div class="item-cv">
+                        <span class="item-title">Titre Professionnel Développeur Web et Web Mobile</span> <span class="date">2024/2025</span>
+                        <br><span class="item-infos">Centre Européen de Formation</span>
+                    </div>
+                    <div class="item-cv">
+                        <span class="item-title">FIMO Voyageurs</span> <span class="date">2016</span>
+                        <br><span class="item-infos">AFRAL Fontaine (38)</span>
+                    </div>
+                    <div class="item-cv">
+                        <span class="item-title">Attestation de capacité voyageurs</span> <span class="date">2013</span>
+                        <br><span class="item-infos">DREAL Rhône-Alpes</span>
+                    </div>
+                    <div class="item-cv">
+                        <span class="item-title">Titre Professionnel Technicien Supérieur Transport de Personnes</span> <span class="date">2012/2013</span>
+                        <br><span class="item-infos">AFTRAL Villette d'Anthon (38)</span>
+                    </div>
+                    <div class="item-cv">
+                        <span class="item-title">Baccalauréat Technologique STI GMA</span> <span class="date">2012</span>
+                        <br><span class="item-infos">Lycée Monge</span>
+                    </div>
+                </div>
             </section>
             <section>
                 <h2>Expériences professionnelles</h2>
                 <hr>
-                <ul>
-                    <li>Développeur Web full-stack : Depuis 2017<br>
-                    https://transport-manager.net</li>
-                    <li>Chef de Centre : 2023-2025<br>
-                    Transdev Savoie</li>
-                    <li>Responsable Planning : 2014-2022<br>
-                    Transdev Savoie</li>
-                    <li>Assistant d'Exploitation en apprentissage (alternant) : 2012-2013<br>
-                    SEM VFD</li>
-                </ul>
+                <div class="list-items-cv">
+                    <div class="item-cv">
+                        <span class="item-title">Développeur Web full-stack</span> <span class="date">Depuis 2017</span>
+                        <br><span class="item-infos">https://transport-manager.net</span>
+                    </div>
+                    <div class="item-cv">
+                        <span class="item-title">Chef de Centre</span> <span class="date">Depuis 2023</span>
+                        <br><span class="item-infos">Transdev Savoie</span>
+                    </div>
+                    <div class="item-cv">
+                        <span class="item-title">Responsable Planning</span> <span class="date">2014/2023</span>
+                        <br><span class="item-infos">Transdev Savoie</span>
+                    </div>
+                    <div class="item-cv">
+                        <span class="item-title">Assistant d'Exploitation en apprentissage (alternant)</span> <span class="date">2012/2013</span>
+                        <br><span class="item-infos">SEM VFD</span>
+                    </div>
+                </div>
             </section>
         </div>
     </main>

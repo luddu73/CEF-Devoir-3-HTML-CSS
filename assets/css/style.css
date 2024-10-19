@@ -144,15 +144,6 @@ main
     background-color: rgba(227, 227, 227, 0.5);
     justify-content: space-between;
 }
-/* On défini la taille de la partie cv details */
-.cv-details
-{
-    display:flex;
-    flex-direction:column;
-    padding:2em;
-    padding-left: 3em;
-}
-
 /* Titres du contenu du CV */
 h2
 {
@@ -208,4 +199,47 @@ h2
     line-height: 1.5em;
     margin:auto;
     margin-top:1.5em;
+}
+
+
+/* On défini la taille de la partie cv details */
+.cv-details
+{
+    display:flex;
+    flex-direction:column;
+    padding:2em 3em;
+    padding-left: 3em;
+}
+
+/*Mise en forme du texte de présentation*/
+.profil-text
+{
+    text-indent: 2em;
+    text-align: justify;
+}
+
+/* Mise en forme des items formations et experciences */
+.list-items-cv
+{
+    display:flex;
+    flex-direction: column;
+}
+.item-cv
+{
+    margin:0.5em 0;
+}
+.item-title
+{
+    font-weight: bolder;
+}
+.date
+{
+    color:#17abb3;
+    text-align:right;
+    float:right;
+}
+.item-infos
+{
+    font-size: small;
+    font-style: italic;
 }
