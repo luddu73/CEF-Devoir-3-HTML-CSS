@@ -1,3 +1,5 @@
+/* Import et mise en place police Lato sur les titres */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 /* Import et mise en place police Raleway sur le reste du site */
 
 @font-face {
@@ -35,14 +37,16 @@
 {
     font-family: "Raleway", sans-serif;
 }
-/* Import et mise en place police Lato sur les titres */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
+html
+{
+    background-color: #F5F5F5;
+}
 /* Taille du CV en largeur 1160px et centré et background de l'entête et pied de page */
 body
 {
     width: 1160px;
     margin:auto;
+    background-color: white;
 }
 header, footer
 {
@@ -99,11 +103,14 @@ address
 {
     display: flex;
     flex-direction:column;
+    align-items:flex-start;
+    margin:0;
     flex-wrap:wrap;
     font-size:small;
-    height:60px;
-    margin:auto;
-    row-gap:0.5em;
+    height:55px;
+    box-sizing: border-box;
+    justify-content: center;
+    width:100%;
 }
 address p
 {
@@ -111,6 +118,7 @@ address p
     font-size:medium;
     text-align:left;
     margin:auto auto auto 25px;
+    box-sizing: border-box;
     color:white;
 }
 /* Suppression mise en forme des liens */
@@ -123,6 +131,8 @@ a
 .head-icon
 {
     width:20px;
+    float:left;
+    padding-right:0.5em;
 }
 
 
@@ -141,8 +151,8 @@ main
     box-sizing:border-box;
     padding:2em;
     padding-left: 3em;
-    background-color: rgba(227, 227, 227, 0.5);
-    justify-content: space-between;
+    row-gap:1em;
+    background-color: #e3e3e380;
 }
 /* Titres du contenu du CV */
 h2
