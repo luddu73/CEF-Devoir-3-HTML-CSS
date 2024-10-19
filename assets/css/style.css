@@ -40,12 +40,15 @@
 html
 {
     background-color: #F5F5F5;
+    height:auto;
+    margin:0;
 }
 /* Taille du CV en largeur 1160px et centré et background de l'entête et pied de page */
 body
 {
     width: 1160px;
-    margin:auto;
+    height:auto;
+    margin:0 auto;
     background-color: white;
 }
 header, footer
