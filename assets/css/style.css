@@ -53,8 +53,81 @@ header, footer
 {
     background-color: #17abb3;
     align-content: center;
+}
+/* Mise en forme de l'header */
+header
+{
+    display: flex;
+    align-items: center;
+    color:white;
+    text-align:center;
+    height: 240px;
+}
+/* Mise en forme de la partie photo */
+.photo
+{
+    width:348px;
     text-align: center;
 }
+.photo img
+{
+    width:40%;
+    border-radius: 50%;
+    border: white 5px solid;
+}
+/* Mise en forme du côté droit de l'header */
+.header-contact
+{
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+/* Mise en forme titre Nom Prénom */
+header h1
+{
+    margin:auto;
+    font-size: xxx-large;
+}
+/* Mise en forme du poste recherché */
+.search-post
+{
+    margin:0.5em;
+    font-size: x-large;
+}
+/* Mise en forme du bloc de coordonnées */
+address
+{
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    font-size:small;
+    height:60px;
+    margin:auto;
+    row-gap:0.5em;
+}
+address p
+{
+    font-style:normal;
+    font-size:medium;
+    text-align:left;
+    margin:auto auto auto 25px;
+}
+/* Suppression mise en forme des liens */
+a
+{
+    color:white;
+    text-decoration: none;
+}
+/* Taille des icones */
+.head-icon
+{
+    width:15px;
+}
+
+
+
 /* mise en forme de la partie principale*/
 main
 {
