@@ -63,6 +63,7 @@ header
     text-align:center;
     height: 240px;
 }
+/* Mise en forme de la partie photo */
 .photo
 {
     width:348px;
@@ -74,21 +75,28 @@ header
     border-radius: 50%;
     border: white 5px solid;
 }
+/* Mise en forme du côté droit de l'header */
 .header-contact
 {
     margin:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
 }
-
+/* Mise en forme titre Nom Prénom */
 header h1
 {
-    margin-bottom:auto;
+    margin:auto;
     font-size: xxx-large;
 }
+/* Mise en forme du poste recherché */
 .search-post
 {
     margin:0.5em;
     font-size: x-large;
 }
+/* Mise en forme du bloc de coordonnées */
 address
 {
     display: flex;
@@ -97,6 +105,7 @@ address
     font-size:small;
     height:60px;
     margin:auto;
+    row-gap:0.5em;
 }
 address p
 {
@@ -105,16 +114,19 @@ address p
     text-align:left;
     margin:auto auto auto 25px;
 }
+/* Suppression mise en forme des liens */
 a
 {
     color:white;
     text-decoration: none;
 }
+/* Taille des icones */
 .head-icon
 {
-    width:20px;
-    fill:white !important;
+    width:15px;
 }
+
+
 
 /* mise en forme de la partie principale*/
 main
