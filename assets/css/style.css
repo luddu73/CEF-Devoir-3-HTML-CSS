@@ -64,6 +64,27 @@ header
     text-align:center;
     height: 240px;
 }
+/* Ajout d'une notion responsive pour l'accessibilité, qui entre en compte dans le SEO */
+@media screen and (max-width: 1160px) 
+{
+    body
+    {
+        width: auto;
+        height:auto;
+        margin:0 auto;
+        background-color: white;
+    }
+    header
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align:center;
+        height: auto;
+        width:auto;
+        padding:1em;
+    }
+}
 /* Mise en forme de la partie photo */
 .photo
 {
@@ -150,6 +171,15 @@ main
 {
     display:flex;
 }
+/* Ajout d'une notion responsive pour l'accessibilité, qui entre en compte dans le SEO */
+@media screen and (max-width: 1160px) 
+{
+    main
+    {
+        display:flex;
+        flex-direction: column;
+    }
+}
 /* On défini la taille de la partie profil */
 .profile
 {
@@ -209,6 +239,12 @@ h2
     font-weight: bold;
     width:40%;
     color:#333333;
+}
+/* Mise en valeur de la langue parlée */
+.language-level
+{
+    width:60%;
+    text-align: right;
 }
 
 /* Mise en forme des listes */
