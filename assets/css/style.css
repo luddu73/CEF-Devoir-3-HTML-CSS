@@ -261,3 +261,30 @@ h2
     font-size: small;
     font-style: italic;
 }
+
+/* Mise en page du footer */
+footer
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+    font-style: italic;
+    color:white;
+}
+.social-network
+{
+    display:flex;
+    justify-content: center;
+}
+.social-network--icon
+{
+    width:20px;
+    margin:0.3em 1em;
+    margin-top:2em;
+}
+footer p
+{
+    margin:auto;
+    margin-bottom:1em;
+}
