@@ -40,12 +40,9 @@
         <aside class="profile">
             <section aria-label="skills">
                 <h2>Compétences</h2>
-                <hr>
                 <!-- Liste sous forme de div pour faire l'alignement avec flexbox -->
                 <div class="skills-list">
-                    <div class="skills">
-                        <strong>HTML</strong><!-- Ajout de balises strong à plusieurs reprises, pour les mots clés SEO -->
-                    </div>
+                    <h3 class="skills">HTML</h3><!-- Correction en titre à la place des strong -->
                     <div class="skills-level">
                         <!-- 4/5 étoiles -->
                         <img src="../assets/img/star-solid.svg" class="skills-icon" alt="1 étoile">
@@ -54,7 +51,7 @@
                         <img src="../assets/img/star-solid.svg" class="skills-icon" alt="1 étoile">
                         <img src="../assets/img/star-regular.svg" class="skills-icon" alt="0 étoile">
                     </div>
-                    <div class="skills"><strong>CSS</strong></div>
+                    <h3 class="skills">CSS</h3>
                     <div class="skills-level">
                         <!-- 3/5 étoiles -->
                         <img src="../assets/img/star-solid.svg" class="skills-icon" alt="1 étoile">
@@ -63,7 +60,7 @@
                         <img src="../assets/img/star-regular.svg" class="skills-icon" alt="0 étoile">
                         <img src="../assets/img/star-regular.svg" class="skills-icon" alt="0 étoile">
                     </div>
-                    <div class="skills"><strong>Javascript</strong></div>
+                    <h3 class="skills">Javascript</h3>
                     <div class="skills-level">
                         <!-- 1/5 étoiles -->
                         <img src="../assets/img/star-solid.svg" class="skills-icon" alt="1 étoile">
@@ -72,7 +69,7 @@
                         <img src="../assets/img/star-regular.svg" class="skills-icon" alt="0 étoile">
                         <img src="../assets/img/star-regular.svg" class="skills-icon" alt="0 étoile">
                     </div>
-                    <div class="skills"><strong>PHP</strong></div>
+                    <h3 class="skills">PHP</h3>
                     <div class="skills-level">
                         <!-- 2/5 étoiles -->
                         <img src="../assets/img/star-solid.svg" class="skills-icon" alt="1 étoile">
@@ -85,18 +82,17 @@
             </section>
             <section aria-label="language">
                 <h2>Langues</h2>
-                <hr>
                 <!-- Liste sous forme de div pour faire l'alignement avec flexbox -->
                 <div class="skills-list">
-                    <div class="language"><strong>Français</strong></div>
+                    <h3 class="language">Français</h3>
                     <div class="language-level">
                         Langue maternelle
                     </div>
-                    <div class="language"><strong>Anglais</strong></div>
+                    <h3 class="language">Anglais</h3>
                     <div class="language-level">
                         Niveau B1
                     </div>
-                    <div class="language"><strong>Espagnol</strong></div>
+                    <h3 class="language">Espagnol</h3>
                     <div class="language-level">
                         Notions
                     </div>
@@ -104,7 +100,6 @@
             </section>
             <section aria-label="qualities">
                 <h2>Qualités</h2>
-                <hr>
                 <ul>
                     <li>Autonome</li>
                     <li>Investi</li>
@@ -114,7 +109,6 @@
             </section>
             <section aria-label="interests">
                 <h2>Centres d'intérêt</h2>
-                <hr>
                 <ul>
                     <li>Animaux</li>
                     <li>Informatique / Jeux Vidéos</li>
@@ -126,7 +120,6 @@
         <div class="cv-details">
             <section aria-label="profil">
                 <h2>Profil</h2>
-                <hr>
                 <p class="profil-text">Après 10 ans au sein d'une exploitation en transports de voyageurs (8 ans tant
                     que chargé de planning, puis 2 ans responsable de site), je suis en pleine reconvertion
                     professionnelle.</p>
@@ -136,30 +129,29 @@
             </section>
             <section aria-label="training">
                 <h2>Formations</h2>
-                <hr>
                 <div class="list-items-cv">
                     <div class="item-cv">
-                        <p class="item-title">Titre Professionnel Développeur Web et Web Mobile</p>
+                        <h3 class="item-title">Titre Professionnel Développeur Web et Web Mobile</h3>
                         <p class="date">2024/2025</p>
                         <p class="item-infos">Centre Européen de Formation</p>
                     </div>
                     <div class="item-cv">
-                        <p class="item-title">FIMO Voyageurs</p>
+                        <h3 class="item-title">FIMO Voyageurs</h3>
                         <p class="date">2016</p>
                         <p class="item-infos">AFRAL Fontaine (38)</p>
                     </div>
                     <div class="item-cv">
-                        <p class="item-title">Attestation de capacité voyageurs</p>
+                        <h3 class="item-title">Attestation de capacité voyageurs</h3>
                         <p class="date">2013</p>
                         <p class="item-infos">DREAL Rhône-Alpes</p>
                     </div>
                     <div class="item-cv">
-                        <p class="item-title">Titre Professionnel Technicien Supérieur Transport de Personnes</p>
+                        <h3 class="item-title">Titre Professionnel Technicien Supérieur Transport de Personnes</h3>
                         <p class="date">2012/2013</p>
                         <p class="item-infos">AFTRAL Villette d'Anthon (38)</p>
                     </div>
                     <div class="item-cv">
-                        <p class="item-title">Baccalauréat Technologique STI GMA</p>
+                        <h3 class="item-title">Baccalauréat Technologique STI GMA</h3>
                         <p class="date">2012</p>
                         <p class="item-infos">Lycée Monge</p>
                     </div>
@@ -168,25 +160,24 @@
             <!-- N'ayant jamais fait de stages mais ayant eu beaucoup plus de formations, je n'ai pas implémentés de partie l'e concernant -->
             <section aria-label="experiencies">
                 <h2>Expériences professionnelles</h2>
-                <hr>
                 <div class="list-items-cv">
                     <div class="item-cv">
-                        <p class="item-title">Développeur Web full-stack</p>
+                        <h3 class="item-title">Développeur Web full-stack</h3>
                         <p class="date">Depuis 2017</p>
                         <p class="item-infos">https://transport-manager.net</p>
                     </div>
                     <div class="item-cv">
-                        <p class="item-title">Chef de Centre</p>
+                        <h3 class="item-title">Chef de Centre</h3>
                         <p class="date">Depuis 2023</p>
                         <p class="item-infos">Transdev Savoie</p>
                     </div>
                     <div class="item-cv">
-                        <p class="item-title">Responsable Planning</p>
+                        <h3 class="item-title">Responsable Planning</h3>
                         <p class="date">2014/2023</p>
                         <p class="item-infos">Transdev Savoie</p>
                     </div>
                     <div class="item-cv">
-                        <p class="item-title">Assistant d'Exploitation en apprentissage (alternant)</p>
+                        <h3 class="item-title">Assistant d'Exploitation en apprentissage (alternant)</h3>
                         <p class="date">2012/2013</p>
                         <p class="item-infos">SEM VFD</p>
                     </div>
