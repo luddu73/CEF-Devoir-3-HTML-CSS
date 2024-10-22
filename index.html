@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitæ de Ludovic CARRIL - Développeur web et web mobile</title>
-    <meta name="description" content="Développeur Web en formation, 10 ans d'expérience dans le transport. Je développe également un projet de jeu en ligne sur navigateur, alliant mes connaissance professionnelles et mes compétences en développement.">
+    <meta name="description"
+        content="Développeur Web en formation, 10 ans d'expérience dans le transport. Je développe également un projet de jeu en ligne sur navigateur, alliant mes connaissance professionnelles et mes compétences en développement.">
     <link rel="shortcut icon" type="image/ico" href="../assets/img/favicon.ico">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
+
 <body>
     <header>
         <div class="photo">
-            <a href="../assets/img/Photo-Ludovic-CARRIL.jpg" target="_blank" aria-label="Ouvrir la photo de Ludovic"><img src="../assets/img/photo-Ludovic-CARRIL.jpg" alt="Photo de profil de Ludovic CARRIL"></a>
+            <a href="../assets/img/Photo-Ludovic-CARRIL.jpg" target="_blank"
+                aria-label="Ouvrir la photo de Ludovic"><img src="../assets/img/photo-Ludovic-CARRIL.jpg"
+                    alt="Photo de profil de Ludovic CARRIL"></a>
         </div>
         <!-- Ajout de header dans le bloc header-contact et mise en forme sous flex -->
         <div class="header-contact">
-            <div>
-                <h1>Ludovic CARRIL</h1>
-            </div>
-            <div>
-                <p class="search-post">Développeur Web et Web Mobile</p>
-            </div>
-             <!-- Le tél est faux, l'adresse est vague, le mail est vrai (mail pro pour développement) -->
+            <h1>Ludovic CARRIL</h1> <!-- Retrait des balises div superflue -->
+            <p class="search-post">Développeur Web et Web Mobile</p> <!-- Retrait des balises div superflue -->
+            <!-- Le tél est faux, l'adresse est vague, le mail est vrai (mail pro pour développement) -->
             <address>
-                <p><a href="mailto:ludo.agtm@outlook.fr" aria-label="Envoyer un email à Ludovic"><img class="head-icon" src="../assets/img/email.svg" alt="Icone pour email"> ludo.agtm@outlook.fr</a></p>
-                <p><a href="tel:0606060606" aria-label="Téléphoner à Ludovic"><img class="head-icon" src="../assets/img/phone.svg" alt="Icone pour téléphone"> 06 06 06 06 06</a></p>
-                <p><a aria-label="Voir où se situe Ludovic" href="https://www.google.fr/maps/place/Savoie/@45.4941727,5.7443825,195031m/data=!3m2!1e3!4b1!4m6!3m5!1s0x478bd21efc2354d3:0x308ab2ae4b92a10!8m2!3d45.4932045!4d6.4724!16zL20vMG0wZDY?entry=ttu&g_ep=EgoyMDI0MTAxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="head-icon" src="../assets/img/adress.svg" alt="Icone pour adresse"> Savoie</a></p>
+                <p><a href="mailto:ludo.agtm@outlook.fr" aria-label="Envoyer un email à Ludovic"><img class="head-icon"
+                            src="../assets/img/email.svg" alt="Icone pour email"> ludo.agtm@outlook.fr</a></p>
+                <p><a href="tel:0606060606" aria-label="Téléphoner à Ludovic"><img class="head-icon"
+                            src="../assets/img/phone.svg" alt="Icone pour téléphone"> 06 06 06 06 06</a></p>
+                <p><a aria-label="Voir où se situe Ludovic"
+                        href="https://www.google.fr/maps/place/Savoie/@45.4941727,5.7443825,195031m/data=!3m2!1e3!4b1!4m6!3m5!1s0x478bd21efc2354d3:0x308ab2ae4b92a10!8m2!3d45.4932045!4d6.4724!16zL20vMG0wZDY?entry=ttu&g_ep=EgoyMDI0MTAxNS4wIKXMDSoASAFQAw%3D%3D"
+                        target="_blank"><img class="head-icon" src="../assets/img/adress.svg" alt="Icone pour adresse">
+                        Savoie</a></p>
                 <p><img class="head-icon" src="../assets/img/car.svg" alt="Icone pour les permis"> Permis B, D</p>
             </address>
         </div>
@@ -34,10 +40,9 @@
         <aside class="profile">
             <section aria-label="skills">
                 <h2>Compétences</h2>
-                <hr>
                 <!-- Liste sous forme de div pour faire l'alignement avec flexbox -->
                 <div class="skills-list">
-                    <div class="skills"><strong>HTML</strong><!-- Ajout de balises strong à plusieurs reprises, pour les mots clés SEO --></div> 
+                    <h3 class="skills">HTML</h3><!-- Correction en titre à la place des strong -->
                     <div class="skills-level">
                         <!-- 4/5 étoiles -->
                         <img src="../assets/img/star-solid.svg" class="skills-icon" alt="1 étoile">
@@ -46,7 +51,7 @@
                         <img src="../assets/img/star-solid.svg" class="skills-icon" alt="1 étoile">
                         <img src="../assets/img/star-regular.svg" class="skills-icon" alt="0 étoile">
                     </div>
-                    <div class="skills"><strong>CSS</strong></div> 
+                    <h3 class="skills">CSS</h3>
                     <div class="skills-level">
                         <!-- 3/5 étoiles -->
                         <img src="../assets/img/star-solid.svg" class="skills-icon" alt="1 étoile">
@@ -55,7 +60,7 @@
                         <img src="../assets/img/star-regular.svg" class="skills-icon" alt="0 étoile">
                         <img src="../assets/img/star-regular.svg" class="skills-icon" alt="0 étoile">
                     </div>
-                    <div class="skills"><strong>Javascript</strong></div> 
+                    <h3 class="skills">Javascript</h3>
                     <div class="skills-level">
                         <!-- 1/5 étoiles -->
                         <img src="../assets/img/star-solid.svg" class="skills-icon" alt="1 étoile">
@@ -64,7 +69,7 @@
                         <img src="../assets/img/star-regular.svg" class="skills-icon" alt="0 étoile">
                         <img src="../assets/img/star-regular.svg" class="skills-icon" alt="0 étoile">
                     </div>
-                    <div class="skills"><strong>PHP</strong></div> 
+                    <h3 class="skills">PHP</h3>
                     <div class="skills-level">
                         <!-- 2/5 étoiles -->
                         <img src="../assets/img/star-solid.svg" class="skills-icon" alt="1 étoile">
@@ -77,18 +82,17 @@
             </section>
             <section aria-label="language">
                 <h2>Langues</h2>
-                <hr>
                 <!-- Liste sous forme de div pour faire l'alignement avec flexbox -->
                 <div class="skills-list">
-                    <div class="language"><strong>Français</strong></div> 
+                    <h3 class="language">Français</h3>
                     <div class="language-level">
                         Langue maternelle
                     </div>
-                    <div class="language"><strong>Anglais</strong></div> 
+                    <h3 class="language">Anglais</h3>
                     <div class="language-level">
                         Niveau B1
                     </div>
-                    <div class="language"><strong>Espagnol</strong></div> 
+                    <h3 class="language">Espagnol</h3>
                     <div class="language-level">
                         Notions
                     </div>
@@ -96,7 +100,6 @@
             </section>
             <section aria-label="qualities">
                 <h2>Qualités</h2>
-                <hr>
                 <ul>
                     <li>Autonome</li>
                     <li>Investi</li>
@@ -106,7 +109,6 @@
             </section>
             <section aria-label="interests">
                 <h2>Centres d'intérêt</h2>
-                <hr>
                 <ul>
                     <li>Animaux</li>
                     <li>Informatique / Jeux Vidéos</li>
@@ -118,56 +120,66 @@
         <div class="cv-details">
             <section aria-label="profil">
                 <h2>Profil</h2>
-                <hr>
-                <p class="profil-text">Après 10 ans au sein d'une exploitation en transports de voyageurs (8 ans tant que chargé de planning, puis 2 ans responsable de site), je suis en pleine reconvertion professionnelle.</p>
-                <p class="profil-text">Passionné de transport et d'informatiques, je développe depuis 7 ans un projet personnel : un jeu en ligne sur navigateur sur le domaine des transports. Devenir développeur web est devenu pour moi une évidence.</p>
+                <p class="profil-text">Après 10 ans au sein d'une exploitation en transports de voyageurs (8 ans tant
+                    que chargé de planning, puis 2 ans responsable de site), je suis en pleine reconvertion
+                    professionnelle.</p>
+                <p class="profil-text">Passionné de transport et d'informatiques, je développe depuis 7 ans un projet
+                    personnel : un jeu en ligne sur navigateur sur le domaine des transports. Devenir développeur web
+                    est devenu pour moi une évidence.</p>
             </section>
             <section aria-label="training">
                 <h2>Formations</h2>
-                <hr>
                 <div class="list-items-cv">
                     <div class="item-cv">
-                        <span class="item-title">Titre Professionnel Développeur Web et Web Mobile</span> <span class="date">2024/2025</span>
-                        <br><span class="item-infos">Centre Européen de Formation</span>
+                        <h3 class="item-title">Titre Professionnel Développeur Web et Web Mobile</h3>
+                        <p class="date">2024/2025</p>
+                        <p class="item-infos">Centre Européen de Formation</p>
                     </div>
                     <div class="item-cv">
-                        <span class="item-title">FIMO Voyageurs</span> <span class="date">2016</span>
-                        <br><span class="item-infos">AFRAL Fontaine (38)</span>
+                        <h3 class="item-title">FIMO Voyageurs</h3>
+                        <p class="date">2016</p>
+                        <p class="item-infos">AFRAL Fontaine (38)</p>
                     </div>
                     <div class="item-cv">
-                        <span class="item-title">Attestation de capacité voyageurs</span> <span class="date">2013</span>
-                        <br><span class="item-infos">DREAL Rhône-Alpes</span>
+                        <h3 class="item-title">Attestation de capacité voyageurs</h3>
+                        <p class="date">2013</p>
+                        <p class="item-infos">DREAL Rhône-Alpes</p>
                     </div>
                     <div class="item-cv">
-                        <span class="item-title">Titre Professionnel Technicien Supérieur Transport de Personnes</span> <span class="date">2012/2013</span>
-                        <br><span class="item-infos">AFTRAL Villette d'Anthon (38)</span>
+                        <h3 class="item-title">Titre Professionnel Technicien Supérieur Transport de Personnes</h3>
+                        <p class="date">2012/2013</p>
+                        <p class="item-infos">AFTRAL Villette d'Anthon (38)</p>
                     </div>
                     <div class="item-cv">
-                        <span class="item-title">Baccalauréat Technologique STI GMA</span> <span class="date">2012</span>
-                        <br><span class="item-infos">Lycée Monge</span>
+                        <h3 class="item-title">Baccalauréat Technologique STI GMA</h3>
+                        <p class="date">2012</p>
+                        <p class="item-infos">Lycée Monge</p>
                     </div>
                 </div>
             </section>
             <!-- N'ayant jamais fait de stages mais ayant eu beaucoup plus de formations, je n'ai pas implémentés de partie l'e concernant -->
-            <section  aria-label="experiencies">
+            <section aria-label="experiencies">
                 <h2>Expériences professionnelles</h2>
-                <hr>
                 <div class="list-items-cv">
                     <div class="item-cv">
-                        <span class="item-title">Développeur Web full-stack</span> <span class="date">Depuis 2017</span>
-                        <br><span class="item-infos">https://transport-manager.net</span>
+                        <h3 class="item-title">Développeur Web full-stack</h3>
+                        <p class="date">Depuis 2017</p>
+                        <p class="item-infos">https://transport-manager.net</p>
                     </div>
                     <div class="item-cv">
-                        <span class="item-title">Chef de Centre</span> <span class="date">Depuis 2023</span>
-                        <br><span class="item-infos">Transdev Savoie</span>
+                        <h3 class="item-title">Chef de Centre</h3>
+                        <p class="date">Depuis 2023</p>
+                        <p class="item-infos">Transdev Savoie</p>
                     </div>
                     <div class="item-cv">
-                        <span class="item-title">Responsable Planning</span> <span class="date">2014/2023</span>
-                        <br><span class="item-infos">Transdev Savoie</span>
+                        <h3 class="item-title">Responsable Planning</h3>
+                        <p class="date">2014/2023</p>
+                        <p class="item-infos">Transdev Savoie</p>
                     </div>
                     <div class="item-cv">
-                        <span class="item-title">Assistant d'Exploitation en apprentissage (alternant)</span> <span class="date">2012/2013</span>
-                        <br><span class="item-infos">SEM VFD</span>
+                        <h3 class="item-title">Assistant d'Exploitation en apprentissage (alternant)</h3>
+                        <p class="date">2012/2013</p>
+                        <p class="item-infos">SEM VFD</p>
                     </div>
                 </div>
             </section>
@@ -175,11 +187,17 @@
     </main>
     <footer>
         <div class="social-network">
-            <div><a href="https://www.linkedin.com/in/ludovic-carril-377b34116/" target="_blank" aria-label="Voir le profil Linkedin de Ludovic"><img class="social-network--icon" src="../assets/img/logo-linkedin.svg" alt="Logo Linkedin"></a></div>
-            <div><a href="https://github.com/luddu73" target="_blank" aria-label="Voir le profil GitHub de Ludovic"><img class="social-network--icon" src="../assets/img/logo-github.svg" alt="Logo Github"></a></div>
-            <div><a href="https://www.instagram.com/ludovic.carril/" target="_blank" aria-label="Voir le profil Instagram de Ludovic"><img class="social-network--icon" src="../assets/img/logo-instagram.svg" alt="Logo Instagram"></a></div>
+            <div><a href="https://www.linkedin.com/in/ludovic-carril-377b34116/" target="_blank"
+                    aria-label="Voir le profil Linkedin de Ludovic"><img class="social-network--icon"
+                        src="../assets/img/logo-linkedin.svg" alt="Logo Linkedin"></a></div>
+            <div><a href="https://github.com/luddu73" target="_blank" aria-label="Voir le profil GitHub de Ludovic"><img
+                        class="social-network--icon" src="../assets/img/logo-github.svg" alt="Logo Github"></a></div>
+            <div><a href="https://www.instagram.com/ludovic.carril/" target="_blank"
+                    aria-label="Voir le profil Instagram de Ludovic"><img class="social-network--icon"
+                        src="../assets/img/logo-instagram.svg" alt="Logo Instagram"></a></div>
         </div>
         <p>Mis à jour le : <time datetime="2024-10-19">19/10/2024</time></p>
     </footer>
 </body>
+
 </html>
