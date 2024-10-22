@@ -291,6 +291,12 @@ h2
     margin:0.3em 0;
     padding:0.5em;
     box-sizing: border-box;
+    display: flex; /* AJOUT CORRECTION */
+    flex-wrap: wrap; /* AJOUT CORRECTION */
+}
+.item-cv p
+{
+    margin:0 0; /* AJOUT CORRECTION */
 }
 /* Ajout de l'effet dynamique */
 .item-cv:hover
@@ -302,17 +308,19 @@ h2
 .item-title
 {
     font-weight: bolder;
+    width:85%; /* AJOUT CORRECTION */
 }
 .date
 {
     color:#17abb3;
     text-align:right;
-    float:right;
+    width:15%;/* AJOUT CORRECTION */
 }
 .item-infos
 {
     font-size: small;
     font-style: italic;
+    text-align:left;
 }
 
 /* Mise en page du footer */
